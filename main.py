@@ -2,7 +2,6 @@ import os
 import openai
 import config
 
-#openai.organization = "JDJ"
 openai.api_key = config.api_key
 
 messages = []
